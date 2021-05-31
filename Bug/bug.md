@@ -68,4 +68,10 @@ Process finished with exit code -1
  ```
  ### 解决方法
 
- > Mapper.xml文件中的resultType改为resultMap
+``` java
+  Mapper.xml文件中的
+     <select id="listAll" resultType="bookMap" >
+        select * from book b left join booktype bt on b.typeid=bt.typeid
+    </select>
+    resultType改为resultMap
+  ```
