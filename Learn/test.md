@@ -74,7 +74,9 @@ print("Hello,World!")
 
 注释:
 
-<!--你看不见我-->
+<!--你看不见我
+git config --global --unset http.proxy
+-->
 
 
 
