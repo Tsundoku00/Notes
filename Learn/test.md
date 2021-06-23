@@ -77,7 +77,7 @@ print("Hello,World!")
 <!--你看不见我
 git config --global --unset http.proxy
 -->
-
+git config --global --unset https.proxy 
 登陆界面
 
 两个角色
